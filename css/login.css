@@ -1,0 +1,217 @@
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+.modal-content {
+  min-height:100%;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0; 
+}
+.modal-body {
+  position:absolute;
+  top:45px;
+  /*bottom:45px;*/
+  left:0;
+  right:0;
+  overflow-y:auto;
+}
+.modal-footer {
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+
+
+.close{opacity:10;}
+.modal-header .close {
+    margin-top: 2px;
+    margin-right: 10px;
+    color: #fff;
+}
+.modal-dialog_new{height:300px;}
+.modal-footer{
+    text-align: left;    
+}
+
+.form-inline .form-group {
+    margin-bottom: 11px;
+}
+
+.form-inline .control-label {
+    width: 110px;
+    text-align:right;
+    margin-right: 10px;
+}
+.modal-header{padding:0!important;}
+.modal-title { padding:15px 10px; text-align:center; background:#f2f2f2; color:#000; font-size:18px; text-transform:uppercase;  font-weight:bold;}
+.input-group[class*="col-"]{float:left!important;}
+.top-navbar-brand
+{
+	margin: 12px 0px;
+	font-size:35px;
+	font-family: 'Roboto Slab', serif;
+}
+.navbar-nav{
+	margin: 12px 0px;
+}
+
+#form .container{
+	margin-top:20%;
+	margin-bottom:70px;
+}
+.panel-heading{
+	border-bottom: 1px solid #aaa;
+}
+.form{
+	background:#f8f8f8;
+	border-radius:5px;
+}
+.jumbotron{
+	color:white;
+}
+.jumbotron p,.jumbotron p{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#btn-login{
+	border-left:1px solid #aaa;
+}
+#btn-login .btn{
+	margin-left: 10px;
+}
+#loginform .input-group{
+	margin-bottom: 25px;
+}
+#loginform .input-group[class*="col-"]{
+	float:left;
+}
+.login-action{
+	border-top:1px solid #aaa;
+	margin-bottom:0px;
+}
+.panel{
+	margin-bottom:0;
+	
+	border-radius:20px;
+	
+}
+.panel_new1{background:none!important}
+.panel-body{
+	padding-top:30px;
+}
+.panel-title{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+.panel-title span{
+	font-family: 'Roboto Slab', serif;
+}
+#loginbox{
+	padding: 20px;
+}
+#registertext{
+	padding: 20px;
+}
+.white-alpha-90{
+	/* Fallback for web browsers that don't support RGBa */
+   
+}
+.black-alpha-90{
+	/* Fallback for web browsers that don't support RGBa */
+    background-color: black;
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+}
+.bigger-130{
+	font-size:130%;
+}
+
+.footer {
+    bottom: 0px;
+    text-align: center;
+    background: #272727;
+    color: #fff;
+    font-size: 11px;
+    height: 30px;
+    width: 100%;
+    clear: both;
+    line-height: 30px;
+	position:fixed;
+}
+.main-header {
+    position: relative;
+    max-height: 100px;
+    z-index: 1030;
+    background: #fff;
+    background: url(../images/header_bg.jpg) repeat-x;
+    height: 60px;
+}
+.newba{background:none!important; border:none!important}
+.main-header .navbar {
+    -webkit-transition: margin-left 0.3s ease-in-out;
+    -o-transition: margin-left 0.3s ease-in-out;
+    transition: margin-left 0.3s ease-in-out;
+    margin-bottom: 0;
+    border: none;
+    min-height: 50px;
+    border-radius: 0;
+}
+.navbar {
+    min-height: auto!important;
+}
+.navbar-static-top {
+    z-index: 99999999;
+}
+.main-header{box-shadow:1px 1px 5px #000;}
+.main-header .logo {
+    -webkit-transition: width 0.3s ease-in-out;
+    -o-transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+    display: block;
+    float: left;
+    font-size: 20px;
+    text-align: left;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 5px;
+    font-weight: 300;
+    overflow: hidden;
+    margin: 0 0 0 0;
+	
+}
+.novus{    float: right;
+    margin: 10px 0 0 0;}
+	
+	@media(max-width:767px) {
+		.modal-dialog {
+    width: 90%;
+    margin: 30px auto;
+}
+	.novus{text-align:center!important; background:#000; width:100%;
+    margin: 0!important;}
+	.logo{text-align:center!important; float:none!important}	
+	
+	}
